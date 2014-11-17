@@ -6,6 +6,7 @@ This is a sideloader repository for automatic deployement.
 
 Running Thumbor
 ---------------
+Thumbor is python app and can be installed using pip::
 
     $ pip install -r requirements.txt
     $ thumbor
