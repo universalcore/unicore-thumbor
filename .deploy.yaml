@@ -1,0 +1,7 @@
+buildscript: sideloader/build.sh
+postinstall: sideloader/postinstall.sh
+pip:
+ - thumbor
+ - libthumbor
+dependencies:
+ - libcurl4-openssl-dev
